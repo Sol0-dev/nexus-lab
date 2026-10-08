@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin_portal_backup/
+Disallow: /view.php
+Disallow: /upload.php
+Disallow: /fetch.php
+Disallow: /includes/
+# FLAG{r0b075_1n_75}

@@ -1,0 +1,15 @@
+# Solution / internal docs - intentionally not published
+GUIDE.md
+HINTS.md
+WRITEUP.md
+
+# Secrets & state
+.env
+.env.*
+*.pem
+*.key
+db/dumps/
+*.sql.bak
+
+# Git
+.git/

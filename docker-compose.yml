@@ -1,0 +1,26 @@
+services:
+  nexus-web:
+    build: ./web
+    ports:
+      - "8080:80"
+    depends_on:
+      - nexus-db
+    networks:
+      - web_net
+      - db_net
+
+  nexus-db:
+    build: ./db
+    networks:
+      - db_net
+
+  internal-api:
+    build: ./internal-api
+    networks:
+      - web_net
+
+networks:
+  web_net:
+    driver: bridge
+  db_net:
+    internal: true

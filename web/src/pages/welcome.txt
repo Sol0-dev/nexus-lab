@@ -1,0 +1,4 @@
+Welcome to the Nexus shared documents folder.
+
+This area is used for team handbooks, onboarding notes and project artifacts.
+Files are loaded by the document viewer using their file name.

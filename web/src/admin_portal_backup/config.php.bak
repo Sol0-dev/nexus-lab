@@ -1,0 +1,7 @@
+<?php
+// Legacy configuration backup. Do not ship in production.
+$db_host = "nexus-db";
+$db_user = "nexus_app";
+$db_pass = "S3cur3P@ssw0rd!";
+$db_name = "nexus_portal";
+// Hidden Dev Flag: FLAG{b4ckup_l34k5_cr3d5}
